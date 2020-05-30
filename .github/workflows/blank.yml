@@ -37,7 +37,9 @@ jobs:
         with:
          github_token: ${{ secrets.github_token }}
          stylelint: true
-        uses: wagoid/commitlint-github-action@v1
+         
+      - name: Run Commit Lint
+         uses: wagoid/commitlint-github-action@v1
 
   # This workflow contains a single job called "build"
   build:
