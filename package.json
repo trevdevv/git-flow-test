@@ -1,0 +1,26 @@
+{
+  "name": "git-flow-test",
+  "version": "1.0.0",
+  "description": "# test test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevdevv/git-flow-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevdevv/git-flow-test/issues"
+  },
+  "homepage": "https://github.com/trevdevv/git-flow-test#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
