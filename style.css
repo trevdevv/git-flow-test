@@ -20,7 +20,8 @@ header {
   align-items: center;
 }
 
-.logo-container,.nav-links,
+.logo-container,
+.nav-links,
 .cart {
   display: flex;
 }
