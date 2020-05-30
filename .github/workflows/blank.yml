@@ -15,10 +15,14 @@ jobs:
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
+    env:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
@@ -33,6 +37,7 @@ jobs:
         with:
          github_token: ${{ secrets.github_token }}
          stylelint: true
+        uses: wagoid/commitlint-github-action@v1
 
   # This workflow contains a single job called "build"
   build:
