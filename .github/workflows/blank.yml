@@ -12,4 +12,4 @@ jobs:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v1
         with:
-          configFile: '../../.commitlintrc.json'
+          configFile: './commitlintrc.yaml'
