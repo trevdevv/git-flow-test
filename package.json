@@ -16,10 +16,16 @@
   "bugs": {
     "url": "https://github.com/trevdevv/git-flow-test/issues"
   },
+  "huskey": {
+    "hooks": {
+      "commit-msg": "commitlint - E HUSKY_GIT_PARAMS"
+    }
+  },
   "homepage": "https://github.com/trevdevv/git-flow-test#readme",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "stylelint": "^13.5.0",
     "stylelint-config-standard": "^20.0.0",
