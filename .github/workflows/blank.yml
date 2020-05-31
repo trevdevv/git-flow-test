@@ -51,12 +51,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: codecov/codecov-action@v1
+      - uses: ziishaned/jest-reporter-action@v0.0.1
         with:
-          file: ./coverage.xml
-          flags: unittest # optional
-          name: codecov-umbrella #optional
-          fail_ci_if_error: true #optional (default = false)
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          test-command: "npm jest --coverage"
 
   # This workflow contains a single job called "build"
   build:
