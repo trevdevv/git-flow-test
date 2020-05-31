@@ -41,6 +41,7 @@ jobs:
       - name: Run Commit Lint
         uses: wagoid/commitlint-github-action@v1
         with:
+          github_token: ${{ secrets.github_token }}
           configFile: './commitlint.config.js'
 
   # This workflow contains a single job called "build"
