@@ -15,9 +15,6 @@ jobs:
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
-    env:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
@@ -38,11 +35,16 @@ jobs:
          github_token: ${{ secrets.github_token }}
          stylelint: true
 
-      - name: Run Commit Lint
-        uses: wagoid/commitlint-github-action@v1
+  commit-linters:
+    runs-on: ubuntu-latest
+    env: 
+      GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
         with:
-          github_token: ${{ secrets.github_token }}
-          configFile: './commitlint.config.js'
+          fetch-depth: 0
+      - run: echo "module.exports = {extends:['@commitlint/config-conventional']};" > commitlint.config.js
+      - uses: wagoid/commitlint-github-action@v1
 
   # This workflow contains a single job called "build"
   build:
