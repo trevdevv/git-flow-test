@@ -14,5 +14,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Install Node.js dependencies
+      run: npm install
     - name: Run Jest
       uses: stefanoeb/jest-action@1.0.2
