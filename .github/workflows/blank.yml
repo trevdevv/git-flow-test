@@ -48,9 +48,10 @@ jobs:
       - uses: wagoid/commitlint-github-action@v1
 
   code-coverage:
-    uses: ziishaned/jest-reporter-action@v0.0.1
-    with:
-      github-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Jest Code Coverage Report
+      uses: ziishaned/jest-reporter-action@v0.0.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
   # This workflow contains a single job called "build"
   build:
