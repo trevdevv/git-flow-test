@@ -1,0 +1,15 @@
+{
+  "collectCoverage": true,
+  "coverageThreshold": {
+    "./src/calculator.js": {
+      "branches": 30,
+      "functions": 30,
+      "lines": 30
+    }
+  },
+  "coverageReportes": ["lcov"],
+  "testTimeout": 100,
+  "globals": {
+    "globalVar": "tes value 123!!!"
+  }
+}

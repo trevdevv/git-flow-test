@@ -1,10 +1,13 @@
 {
   "name": "git-flow-test",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "# test test",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --config=jestconfig.json"
   },
   "repository": {
     "type": "git",
