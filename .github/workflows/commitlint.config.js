@@ -8,5 +8,11 @@ module.exports = {
     "lower-case"],
     "type-enum": [0, "always",
     ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'revert']],
+    "type-empty": [0, "never"],
+    "subject-empty": [0, "never"],
+    "scope-empty": [0, "never"],
+    "subject-full-stop": [0, "never",
+    "."],
+    "header-full-stop": [0, "never", "."]
   }
 };
