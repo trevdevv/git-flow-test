@@ -1,17 +1,11 @@
-# Related Issue
-- issue goes here
+# 📲 What
 
-# Proposed Changes
-- change 1
-- change 2
+A description of the change.
 
-# Additional Info
-- any additional information or context
+# 🤔 Why
 
-# Checklist
-- [ ] Tests
-- [ ] Translations
-- [ ] Documentation
+Some background context on why the change is needed.
 
-# Screenshots
-- 
+# 🛠 How
+
+More in-depth discussion of the change or implementation.
