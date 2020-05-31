@@ -1,0 +1,25 @@
+name: Tests
+
+on:
+  push:
+    branches: 
+      - develop 
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  unittests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run Tests
+      run: |
+        npm install 
+        npm test
+  codeCoverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: codecov/codecov-action@v1
+        with:
+          file: ../../coverage/coverage-final.json
