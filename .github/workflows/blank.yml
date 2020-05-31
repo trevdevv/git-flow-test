@@ -6,8 +6,9 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ develop ]
-    branches: [feat/addCommitLinter]
+    branches: 
+      - develop 
+      - feat/addCommitLinter
   pull_request:
     branches: [ develop ]
 
