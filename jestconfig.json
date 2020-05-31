@@ -1,4 +1,5 @@
 {
+  "coverageDirectory": "./coverage/",
   "collectCoverage": true,
   "coverageThreshold": {
     "./src/calculator.js": {
