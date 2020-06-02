@@ -12,6 +12,7 @@ jobs:
   deployApp:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: trmcnvn/chrome-addon@v2
         with:
           # extension is only necessary when updating an existing addon,
