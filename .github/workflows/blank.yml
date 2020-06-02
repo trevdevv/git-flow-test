@@ -1,69 +1,29 @@
-name: CI for Ambianic UI 
+name: Lint
 
-on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
-  push:
-    branches:
-      - develop
-  pull_request:
-    branches:
-      - develop
+on: push
 
 jobs:
-  build:
+  run-linters:
+    name: Run linters
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x]
+
     steps:
-    - uses: actions/checkout@master
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install
-      run: |
-        npm version
-        npm install -g npm
-        npm version
-        npm install
-      env:
-        CI: true
-    - name: Unit Testing
-      uses: cypress-io/github-action@v1
-      with:
-        start: npm run serve
-        record: false # cypress.io free recording limit exceeded
-        wait-on: 'http://localhost:8080'
-      env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Code Coverage Report
-      uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-        file: ./coverage/coverage-final.json # optional
-        flags: pwa-e2e-cypress-tests # optional
-        name: pwa-e2e-test-coverage # optional
-        fail_ci_if_error: true # optional (default = false)        
-    - name: Build PWA distribution for production
-      run: |
-        npm run build --if-present
-      env:
-        CI: true
-    - name: Run Lighthouse PWA check against local production build
-      uses: treosh/lighthouse-ci-action@v2
-      with:
-        # no urls needed, since it uses local folder to scan .html files
-        # budgetPath: '.github/lighthouse/budget.json' # performance budgets
-        configPath: '.github/lighthouse/lighthouserc-static-dist-dir.yml'
-        uploadArtifacts: true # save results as an action artifacts
-        temporaryPublicStorage: true # upload lighthouse report to the temporary storage
-    - name: Semantic Release
-      if: github.event_name == 'push'
-      run: npx semantic-release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_PAT }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Run linters
+        uses: samuelmeuli/lint-action@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          # Enable linters
+          eslint: true
+          prettier: true
