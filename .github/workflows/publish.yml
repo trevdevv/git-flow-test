@@ -12,12 +12,12 @@ jobs:
   deployApp:
     runs-on: ubuntu-latest
     steps:
-      - uses: Klemensas/chrome-extension-upload-action@v1.4.1
+      - uses: mnao305/chrome-extension-upload@1.1.0
         with:
           # extension is only necessary when updating an existing addon,
           # omitting it will create a new addon
-          app-id: gnhijpffhbjbchehfipckfpjhmofocla
-          file-name: './addon.zip'
+          file-path: './addon.zip'
+          extension-id: hogefuga(gnhijpffhbjbchehfipckfpjhmofocla)
           client-id: ${{ secrets.CHROME_CLIENT_ID }}
           client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
           refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
