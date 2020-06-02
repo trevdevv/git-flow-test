@@ -12,6 +12,7 @@ jobs:
   deployApp:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - uses: mnao305/chrome-extension-upload@1.1.0
         with:
           # extension is only necessary when updating an existing addon,
