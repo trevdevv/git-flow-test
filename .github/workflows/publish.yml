@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feat/deployApp
   pull_request:
     branches: [develop]
 
