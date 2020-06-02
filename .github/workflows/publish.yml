@@ -16,8 +16,8 @@ jobs:
         with:
           # extension is only necessary when updating an existing addon,
           # omitting it will create a new addon
-          extension: Hello Extensions
-          zip: './my-addon.zip'
+          app-id: gnhijpffhbjbchehfipckfpjhmofocla
+          file-name: './my-addon.zip'
           client-id: ${{ secrets.CHROME_CLIENT_ID }}
           client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
           refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
