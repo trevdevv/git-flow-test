@@ -12,7 +12,7 @@ jobs:
   deployApp:
     runs-on: ubuntu-latest
     steps:
-      - uses: Klemensas/chrome-extension-upload-action@$VERSION
+      - uses: Klemensas/chrome-extension-upload-action@v1
         with:
           # extension is only necessary when updating an existing addon,
           # omitting it will create a new addon
