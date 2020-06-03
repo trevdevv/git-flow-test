@@ -11,9 +11,12 @@ const mathOperations = {
   subtract: function (x, y) {
     return x - y;
   },
-  exponent: function (x, y) {
-    return x * y;
+  exponent: function (x,y) {
+    return x ** y;
   },
+  remainder: function (x,y) {
+    return x % y;
+  }
 };
 
 module.exports = mathOperations;

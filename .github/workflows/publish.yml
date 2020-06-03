@@ -1,0 +1,27 @@
+name: Publish to Chrome Store
+
+on:
+  push:
+    branches:
+      - develop
+      - feat/deployApp
+  pull_request:
+    branches: [develop]
+
+jobs:
+  deployApp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: trmcnvn/chrome-addon@v2
+        with:
+          # extension is only necessary when updating an existing addon,
+          # omitting it will create a new addon
+          extension: Hello Extensions
+          zip: './addon.zip'
+          client-id: ${{ secrets.CHROME_CLIENT_ID }}
+          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+          # optionally specify the visibility of the addon
+          # publishTarget: default
+

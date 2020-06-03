@@ -30,4 +30,25 @@ describe("Calculator tests", () => {
     // assert
     expect(val).toBe(12);
   });
+  test("subtract 2 numbers", () => {
+    // arrange an act
+    const val = mathOps.subtract(6,2);
+
+    // assert
+    expect(val).toBe(4);
+  })
+  test("exponent of two numbers", () => {
+    // arrange an act
+    const val = mathOps.exponent(2,2);
+
+    // assert
+    expect(val).toBe(4);
+  })
+  test("remainder of two numbers", () => {
+    // arrange an act
+    const val = mathOps.remainder(12,5);
+
+    // assert
+    expect(val).toBe(2);
+  })
 });
