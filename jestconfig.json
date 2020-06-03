@@ -8,8 +8,8 @@
       "lines": 30
     }
   },
-  "coverageReportes": ["lcov"],
-  "testTimeout": 100,
+  "coverageReporters": ["lcov"],
+  "testTimeout": 3000,
   "globals": {
     "globalVar": "tes value 123!!!"
   }
