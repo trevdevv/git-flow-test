@@ -23,7 +23,7 @@
 </p>
 
 # About
-To promote productivity, we introduce [Team Activity Tracker Chrome Extension](https://chrome.google.com/webstore/) to monitor team activity as a reinforcement for avoiding distractions and procrastination. A chrome extension that installs in less than five minutes.
+To promote productivity :rocket:, we introduce [Team Activity Tracker Chrome Extension](https://chrome.google.com/webstore/) to monitor team activity :computer: as a reinforcement for avoiding distractions and procrastination. A chrome extension that installs in less than five minutes :raised_hands:.
 
 With the sudden changes to our everyday lives, remote work is now more prevalent in our everyday lives. Despite holding the same responsibility, remote work proposes new challenges to productivity. The difference in environment can be a huge factor that affects one’s concentration and task management. Working at home opens doors to limitless distractions such as Youtube, Facebook, and other social media platforms that constantly seek our attention. We are in a situation where team accountability is at an all time high when the only thing standing between your teammates is a screen. 
 
