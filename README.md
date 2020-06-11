@@ -18,7 +18,7 @@
   <a href="#related">Related</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#links">External Links</a> •
-  <a href="#support">Support</a> •
+  <a href="https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki">Wiki</a> •
   <a href="#team">Team</a>
 </p>
 
