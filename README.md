@@ -10,3 +10,33 @@ With the sudden changes to our everyday lives, remote work is now more prevalent
 👉 Watch it <a href="https://share.getcloudapp.com/mXuAo7j0">here</a>.
 <br>
 <img src="demo.gif">
+
+## Installation
+### Chrome Extension Store
+coming soon :stuck_out_tongue_closed_eyes:
+
+### For developers
+Clone the source locally:
+
+```sh
+$ git clone https://github.com/cse112-sp20/TEAM-1-CODE-JAM
+$ cd TEAM-1-CODE-JAM
+```
+If you're on Debian or Ubuntu, you'll also need to install
+`nodejs-legacy`:
+
+Use your package manager to install `npm`.
+```sh
+$ sudo apt-get install npm nodejs-legacy
+```
+
+Install project dependencies:
+
+```sh
+$ npm install
+```
+Start the app:
+
+```sh
+$ npm start
+```
