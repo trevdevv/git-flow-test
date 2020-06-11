@@ -64,3 +64,10 @@ $ npm run build
 * Current Display of Team Points, Members, etc
     * Elements: team points, name, members, current site user is on
     * Purpose: give insight on details of each team
+
+## Built with
+- [React](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [Jest](https://jestjs.io/)
+- [Puppeteer](https://pptr.dev/)
+- [React Testing Library](https://testing-library.com/)
