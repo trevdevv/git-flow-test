@@ -40,3 +40,27 @@ Start the app:
 ```sh
 $ npm start
 ```
+
+### Build installers
+
+Build app
+```sh
+$ npm run build
+```
+
+## Feature List:
+* Team Timeline
+    * Elements: Current team activity in color coded points and urls of site members are on. Anonymous labeling of team members to prevent calling out any individual in a team. 
+    * Purpose: Boost team productivity by negatively reinforcing members that get distracted on blacklisted sites ( Facebook, Youtube, etc. ) and positively reinforcing productive members with positive points. Total team and individual points are subtracted or added by visiting various sites. 
+* Self Monitoring
+    * Elements: Charts of the current day’s activity that shows the performance of an individual against each of their teams. 
+    * Purpose: Accessible self reflection that enables room for improvement. Be the best version of your self by self reflecting and check where you stand amongst your teammates. Are you crushing the competition? Show off your stats to your boss for that killer raise.
+* Check in / checkout
+    * Elements: Switch that serves as a check in.
+    * Purpose: Stop procrastinating and stay focused in the workplace by tracking negative websites using Team activity tracker's Work Mode. During self given break time, users can switch off so that it does not affect team points. 
+* Easily add / Create/ Delete teams
+    * Elements: Add button that allows for joining and creating teams
+    * Purpose: Multiple team monitoring 
+* Current Display of Team Points, Members, etc
+    * Elements: team points, name, members, current site user is on
+    * Purpose: give insight on details of each team
