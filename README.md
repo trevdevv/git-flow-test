@@ -19,8 +19,7 @@
   <a href="#contributing">Contributing</a> •
   <a href="#links">External Links</a> •
   <a href="#support">Support</a> •
-  <a href="#donate">Donate</a> •
-  <a href="#license">License</a>
+  <a href="#authors">Authors</a>
 </p>
 
 # About
@@ -106,3 +105,6 @@ Please take a look at our [contributing](https://github.com/cse112-sp20/TEAM-1-C
 * [Project Management](https://3.basecamp.com/4479372/)
 * [Issue tracker](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/issues)
 * [Source code](https://github.com/cse112-sp20/TEAM-1-CODE-JAM)
+
+## Authors
+
