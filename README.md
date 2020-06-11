@@ -19,7 +19,7 @@
   <a href="#contributing">Contributing</a> •
   <a href="#links">External Links</a> •
   <a href="#support">Support</a> •
-  <a href="#authors">Authors</a>
+  <a href="#team">Team</a>
 </p>
 
 # About
@@ -106,5 +106,17 @@ Please take a look at our [contributing](https://github.com/cse112-sp20/TEAM-1-C
 * [Issue tracker](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/issues)
 * [Source code](https://github.com/cse112-sp20/TEAM-1-CODE-JAM)
 
-## Authors
-
+## Team
+* Karl Wang
+* Brian Aguirre
+* William Lui
+* Ivy Cheng
+* Youliang Liu
+* Xiang Liu
+* Gen Barcenas
+* Vivian Lee
+* Howard Wang
+* Edgar Matias
+* Haaris Tahir-Kheli
+* Connor Frank
+* Trevor Perez
