@@ -97,7 +97,7 @@ $ npm run build
 - [BlockSite](https://blocksite.co/)
 
 ## Contributing
-Please take a look at our [contributing](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki) guidelines if you're interested in helping!
+Please take a look at our [contributing](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki) guidelines if you're interested in helping! :tada:
 
 ## Links
 * [Web site](#)
