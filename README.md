@@ -84,6 +84,13 @@ $ npm run build
 ## Related
 - [BlockSite](https://blocksite.co/)
 
+**How to Contribute (Please Follow Project Guidelines on our [Wiki](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki) page)**
+---
+
+1. Clone repo and create a new branch: `$ git checkout https://github.com/cse112-sp20/TEAM-1-CODE-JAM -b name_for_new_branch`.
+2. Make changes and test
+3. Submit Pull Request with comprehensive description of changes
+
 ## Links
 * [Web site](#)
 * [Documentation](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki)
