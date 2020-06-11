@@ -7,4 +7,4 @@
 With the sudden changes to our everyday lives, remote work is now more prevalent in our everyday lives. Despite holding the same responsibility, remote work proposes new challenges to productivity. The difference in environment can be a huge factor that affects one’s concentration and task management. Working at home opens doors to limitless distractions such as Youtube, Facebook, and other social media platforms that constantly seek our attention. We are in a situation where team accountability is at an all time high when the only thing standing between your teammates is a screen. To promote productivity, we introduce ___ to monitor team activity as a reinforcement for avoiding distractions and procrastination.
 
 ## Demo
-![Chrome Extension Demo](Screen Recording 2020-06-05 at 12.19 PM (1).gif)
+![Chrome Extension Demo](git-flow-test/demo.gif)
