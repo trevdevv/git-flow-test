@@ -6,7 +6,7 @@
 
 <h1 align="center">
   <br>
-  <img src="teamLogo.png" alt="Team Activity Tracker">
+  <img src="cover.png" alt="Team Activity Tracker">
 </h1>
 
 <h4 align="center">A Google Chrome Extension Team Activity Tracker based on <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
