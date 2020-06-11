@@ -14,7 +14,7 @@
   <a href="#about">About</a> •
   <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
-  <a href="#Feature List">Features</a> •
+  <a href="#Features">Features</a> •
   <a href="#wiki">Wiki</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#author">Author</a> •
@@ -70,7 +70,7 @@ Build app
 $ npm run build
 ```
 
-## Feature List:
+## Features:
 * Team Timeline
     * Elements: Current team activity in color coded points and urls of site members are on. Anonymous labeling of team members to prevent calling out any individual in a team. 
     * Purpose: Boost team productivity by negatively reinforcing members that get distracted on blacklisted sites ( Facebook, Youtube, etc. ) and positively reinforcing productive members with positive points. Total team and individual points are subtracted or added by visiting various sites. 
