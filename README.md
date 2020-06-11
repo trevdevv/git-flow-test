@@ -12,10 +12,9 @@
 <h4 align="center">A Google Chrome Extension Team Activity Tracker based on <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
 <p align="center">
   <a href="#about">About</a> •
+  <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
-  <a href="#updating">Updating</a> •
-  <a href="#features">Features</a> •
-  <a href="#binds">Binds</a> •
+  <a href="#Feature List">Features</a> •
   <a href="#wiki">Wiki</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#author">Author</a> •
