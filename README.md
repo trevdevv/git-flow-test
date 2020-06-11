@@ -10,6 +10,19 @@
 </h1>
 
 <h4 align="center">A Google Chrome Extension Team Activity Tracker based on <a href="https://reactjs.org/" target="_blank">React</a>.</h4>
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#updating">Updating</a> •
+  <a href="#features">Features</a> •
+  <a href="#binds">Binds</a> •
+  <a href="#wiki">Wiki</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#author">Author</a> •
+  <a href="#support">Support</a> •
+  <a href="#donate">Donate</a> •
+  <a href="#license">License</a>
+</p>
 
 # About
 To promote productivity, we introduce [Team Activity Tracker Chrome Extension](https://chrome.google.com/webstore/) to monitor team activity as a reinforcement for avoiding distractions and procrastination. A chrome extension that installs in less than five minutes.
