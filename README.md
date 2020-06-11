@@ -15,7 +15,7 @@
   <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
   <a href="#Features">Features</a> •
-  <a href="#Built%20with">Built with</a> •
+  <a href="#related">Related</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#author">Author</a> •
   <a href="#support">Support</a> •
@@ -97,7 +97,7 @@ $ npm run build
 ## Related
 - [BlockSite](https://blocksite.co/)
 
-**How to Contribute**
+## Contributing
 ---
 Please take a look at our [contributing](https://github.com/cse112-sp20/TEAM-1-CODE-JAM/wiki) guidelines if you're interested in helping!
 
